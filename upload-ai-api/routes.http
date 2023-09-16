@@ -23,3 +23,16 @@ Content-Type: application/json
 {
     "prompt": "golpe virtual, roubo, pix, qr code"
 }
+
+###
+
+# @name create-transcription
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+    "videoId": "06afd710-b333-4d32-aa71-5d299b2d1eb5",
+    "temperature": 0.5,
+    "template": "Gere um resumo sucinto da transcrição do video informada a seguir: '''{transcription}'''"
+    
+}
