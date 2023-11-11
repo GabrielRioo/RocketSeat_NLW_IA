@@ -1,4 +1,4 @@
-# RocketSeat_NLW_IA
+# Upload.ai
 
 * Using Open IA API
 
